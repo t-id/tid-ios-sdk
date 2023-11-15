@@ -1,0 +1,11 @@
+framework module TidLib {
+  umbrella header "TidLib.h"
+  export *
+
+  module * { export * }
+}
+
+module TidLib.Swift {
+  header "TidLib-Swift.h"
+  requires objc
+}
