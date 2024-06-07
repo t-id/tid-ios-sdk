@@ -45,17 +45,6 @@ public struct LogInfo : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-public class TidSocialToken {
-  public init(accessToken: Swift.String, refreshToken: Swift.String)
-  @objc deinit
-}
-public protocol TidSocialSDK {
-  func initSDK(serverType: TidLib.TidServerHost)
-  func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
-  @available(iOS 13.0, *)
-  func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
-  func login(completion: @escaping (Swift.Result<TidLib.TidSocialToken, any Swift.Error>) -> Swift.Void)
-}
 @_hasMissingDesignatedInitializers public class TidAuth {
   public static let webViewEventLogNotification: Foundation.NSNotification.Name
   public static let shared: TidLib.TidAuth
@@ -67,15 +56,14 @@ public protocol TidSocialSDK {
   public var version: Swift.String {
     get
   }
-  public func initSDK(clientId: Swift.String, options: [Swift.String : Any]? = nil)
+  public func initSDK(clientId: Swift.String, appGroup: Swift.String? = nil)
   public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
   @available(iOS 13.0, *)
   public func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
   public func loginForCode(redirectUri: Swift.String, state: Swift.String, nonce: Swift.String, scopes: Swift.Set<Swift.String> = [], completion: @escaping (Swift.Result<Foundation.URL, TidLib.TidError>) -> Swift.Void)
   public func login(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
-  public func loginForGuest(completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
-  public func getGuestState() -> TidLib.GuestInfo
   public func authorize(scopes: Swift.Set<Swift.String> = [], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
+  public func join(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public var hasToken: Swift.Bool {
     get
   }
@@ -85,7 +73,6 @@ public protocol TidSocialSDK {
   public func requestPost(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
   public func requestPut(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
   public func requestDelete(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
-  public func presentWeb(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: ((Swift.Result<[Swift.String : Swift.String], TidLib.TidError>) -> Swift.Void)? = nil)
   public func presentAuthWeb(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: ((Swift.Result<[Swift.String : Swift.String], TidLib.TidError>) -> Swift.Void)? = nil)
   @objc deinit
 }
@@ -377,9 +364,8 @@ public struct Attributes {
     get
   }
   convenience public init()
-  convenience public init(service: Swift.String)
   convenience public init(accessGroup: Swift.String)
-  convenience public init(service: Swift.String, accessGroup: Swift.String)
+  convenience public init(service: Swift.String, accessGroup: Swift.String? = nil)
   convenience public init(server: Swift.String, protocolType: TidLib.ProtocolType, accessGroup: Swift.String? = nil, authenticationType: TidLib.AuthenticationType = .default)
   convenience public init(server: Foundation.URL, protocolType: TidLib.ProtocolType, accessGroup: Swift.String? = nil, authenticationType: TidLib.AuthenticationType = .default)
   final public func accessibility(_ accessibility: TidLib.Accessibility) -> TidLib.Keychain
@@ -944,22 +930,6 @@ extension Foundation.Data {
   public func gzipped(level: TidLib.CompressionLevel = .defaultCompression) throws -> Foundation.Data
   public func gunzipped() throws -> Foundation.Data
 }
-@_hasMissingDesignatedInitializers public class GuestInfo {
-  final public let guest_state: TidLib.GuestState
-  final public let guest_sub: Swift.String?
-  @objc deinit
-}
-@frozen public enum GuestState {
-  case UNKNOWN
-  case GUEST
-  case NORMAL
-  case ERROR
-  public static func == (a: TidLib.GuestState, b: TidLib.GuestState) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public enum ReachabilityError : Swift.Error {
   case FailedToCreateWithAddress(Darwin.sockaddr_in)
   case FailedToCreateWithHostname(Swift.String)
@@ -1055,9 +1025,6 @@ extension TidLib.AuthenticationUI : Swift.Equatable {}
 extension TidLib.AuthenticationUI : Swift.Hashable {}
 extension TidLib.Status : Swift.Equatable {}
 extension TidLib.Status : Swift.Hashable {}
-extension TidLib.GuestState : Swift.Equatable {}
-extension TidLib.GuestState : Swift.Hashable {}
-extension TidLib.GuestState : Swift.Sendable {}
 @available(iOS 8.0, *)
 @available(*, unavailable, renamed: "Connection")
 extension TidLib.Reachability.NetworkStatus : Swift.Equatable {}
