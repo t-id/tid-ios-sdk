@@ -2161,6 +2161,86 @@
           },
           {
             "kind": "Function",
+            "name": "requestGet",
+            "printedName": "requestGet(path:queries:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, TidLib.TidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, TidLib.TidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidError",
+                        "printedName": "TidLib.TidError",
+                        "usr": "s:6TidLib0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6TidLib0A4AuthC10requestGet4path7queries10completionySS_SDyS2SGys6ResultOyxAA0A5ErrorOGctSeRzlF",
+            "mangledName": "$s6TidLib0A4AuthC10requestGet4path7queries10completionySS_SDyS2SGys6ResultOyxAA0A5ErrorOGctSeRzlF",
+            "moduleName": "TidLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "requestPost",
             "printedName": "requestPost(path:queries:jsonBody:completion:)",
             "children": [
@@ -2255,6 +2335,92 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPost",
+            "printedName": "requestPost(path:queries:jsonBody:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, TidLib.TidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, TidLib.TidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidError",
+                        "printedName": "TidLib.TidError",
+                        "usr": "s:6TidLib0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6TidLib0A4AuthC11requestPost4path7queries8jsonBody10completionySS_SDyS2SG10Foundation4DataVys6ResultOyxAA0A5ErrorOGctSeRzlF",
+            "mangledName": "$s6TidLib0A4AuthC11requestPost4path7queries8jsonBody10completionySS_SDyS2SG10Foundation4DataVys6ResultOyxAA0A5ErrorOGctSeRzlF",
+            "moduleName": "TidLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -2359,6 +2525,92 @@
           },
           {
             "kind": "Function",
+            "name": "requestPut",
+            "printedName": "requestPut(path:queries:jsonBody:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, TidLib.TidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, TidLib.TidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidError",
+                        "printedName": "TidLib.TidError",
+                        "usr": "s:6TidLib0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6TidLib0A4AuthC10requestPut4path7queries8jsonBody10completionySS_SDyS2SG10Foundation4DataVys6ResultOyxAA0A5ErrorOGctSeRzlF",
+            "mangledName": "$s6TidLib0A4AuthC10requestPut4path7queries8jsonBody10completionySS_SDyS2SG10Foundation4DataVys6ResultOyxAA0A5ErrorOGctSeRzlF",
+            "moduleName": "TidLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "requestDelete",
             "printedName": "requestDelete(path:queries:completion:)",
             "children": [
@@ -2447,6 +2699,86 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestDelete",
+            "printedName": "requestDelete(path:queries:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<τ_0_0, TidLib.TidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<τ_0_0, TidLib.TidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidError",
+                        "printedName": "TidLib.TidError",
+                        "usr": "s:6TidLib0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6TidLib0A4AuthC13requestDelete4path7queries10completionySS_SDyS2SGys6ResultOyxAA0A5ErrorOGctSeRzlF",
+            "mangledName": "$s6TidLib0A4AuthC13requestDelete4path7queries10completionySS_SDyS2SGys6ResultOyxAA0A5ErrorOGctSeRzlF",
+            "moduleName": "TidLib",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -30395,175 +30727,224 @@
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 18205,
+      "offset": 16211,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 18899,
+      "offset": 16508,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 19613,
+      "offset": 17190,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 20275,
+      "offset": 17510,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 20908,
+      "offset": 18212,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 21608,
+      "offset": 18530,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 30295,
+      "offset": 19180,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 31048,
+      "offset": 19483,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "Dictionary",
+      "offset": 20104,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "Dictionary",
+      "offset": 20818,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "Dictionary",
+      "offset": 21696,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "Dictionary",
+      "offset": 22807,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24908,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 30488,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "Dictionary",
+      "offset": 33186,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34359,
+      "offset": 36810,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34371,
+      "offset": 36822,
       "length": 3,
       "value": "2"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34384,
+      "offset": 36835,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34359,
+      "offset": 36810,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34371,
+      "offset": 36822,
       "length": 3,
       "value": "2"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34384,
+      "offset": 36835,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34359,
+      "offset": 36810,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34371,
+      "offset": 36822,
       "length": 3,
       "value": "2"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 34384,
+      "offset": 36835,
       "length": 4,
       "value": "3"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 34433,
+      "offset": 36884,
       "length": 5,
       "value": "\"get\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 34455,
+      "offset": 36906,
       "length": 6,
       "value": "\"post\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 34477,
+      "offset": 36928,
       "length": 5,
       "value": "\"put\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 34501,
+      "offset": 36952,
       "length": 8,
       "value": "\"delete\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 34433,
+      "offset": 36884,
       "length": 5,
       "value": "\"get\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 34455,
+      "offset": 36906,
       "length": 6,
       "value": "\"post\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 34477,
+      "offset": 36928,
       "length": 5,
       "value": "\"put\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 34501,
+      "offset": 36952,
       "length": 8,
       "value": "\"delete\""
     },

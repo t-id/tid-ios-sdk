@@ -69,9 +69,13 @@ public struct LogInfo : Swift.Codable {
   public func accessTokenInfo(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public func logout(completion: @escaping (TidLib.TidError?) -> Swift.Void)
   public func requestGet(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
+  public func requestGet<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
   public func requestPost(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
+  public func requestPost<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
   public func requestPut(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
+  public func requestPut<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
   public func requestDelete(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
+  public func requestDelete<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
   public func presentAuthWeb(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: ((Swift.Result<[Swift.String : Swift.String], TidLib.TidError>) -> Swift.Void)? = nil)
   @objc deinit
 }
