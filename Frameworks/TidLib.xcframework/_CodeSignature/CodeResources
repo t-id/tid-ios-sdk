@@ -18,7 +18,7 @@
 		</data>
 		<key>ios-arm64/TidLib.framework/Info.plist</key>
 		<data>
-		IPfWJ8J82swuFgKIEV3s/H6XXuU=
+		vIMOdd4d9Vp58G6LBXJjwZCf+7E=
 		</data>
 		<key>ios-arm64/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>ios-arm64/TidLib.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		jw6Zs0MPFANI0VLnZbVpXsY5Kj0=
+		i2g1NlM4f2/+txoZKNVeE6VmW5U=
 		</data>
 		<key>ios-arm64/TidLib.framework/Scenes.storyboardc/Info.plist</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64/TidLib.framework/TidLib</key>
 		<data>
-		Tpg3mW6nHWm5IFOeJEM3eUFDeig=
+		DV3+/ghcV5FsESdbc/s/lIFxyyY=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Headers/TidLib-Swift.h</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		fe0BYTW4F6sJq0iH5HTkSC1EcU0=
+		LuBuCQIvse4urt79o/vr9H1lJhE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
-		jw6Zs0MPFANI0VLnZbVpXsY5Kj0=
+		i2g1NlM4f2/+txoZKNVeE6VmW5U=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Resources/Scenes.storyboardc/Info.plist</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/TidLib</key>
 		<data>
-		dksojPuiJjrwXSTAqau5vMspj/8=
+		olT+swY3DGICGIMqEl6R8/dhIPY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Assets.car</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Info.plist</key>
 		<data>
-		mTubNe8gQ1Dt+vx/7qUwXm50Dgo=
+		YeGmvjxc+1WV43VsoTe95xuJ20o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/PrivacyInfo.xcprivacy</key>
 		<data>
-		jw6Zs0MPFANI0VLnZbVpXsY5Kj0=
+		i2g1NlM4f2/+txoZKNVeE6VmW5U=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Scenes.storyboardc/Info.plist</key>
 		<data>
@@ -202,11 +202,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/TidLib</key>
 		<data>
-		mL0tQCmOPWI/gsfWdENcnA1z754=
+		vQlBh1qHTpnB1L9H2HoAt13LVOo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/_CodeSignature/CodeResources</key>
 		<data>
-		X9koERACcfJV80m9r1KrVh+J9p8=
+		wHKsahqzkW7LVHkrejDNlEYhEqI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -248,11 +248,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IPfWJ8J82swuFgKIEV3s/H6XXuU=
+			vIMOdd4d9Vp58G6LBXJjwZCf+7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			aH9UQ9sNTqbU8BqzUnLWbaisrOCDqfHz2K/AUOgpZtA=
+			R0ZxmdxE3kS0EkHkhZgRTy2W5iiD03XdgX2VXkKnSUQ=
 			</data>
 		</dict>
 		<key>ios-arm64/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -314,11 +314,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jw6Zs0MPFANI0VLnZbVpXsY5Kj0=
+			i2g1NlM4f2/+txoZKNVeE6VmW5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			97Oe+xkme9k8uJcmGHeI0ONweXPwGQG4qSM4yQMMya4=
+			ngVd8XMUmM1wvppRiFz8KEA4nU0Lh8gSJjBnXp94tsU=
 			</data>
 		</dict>
 		<key>ios-arm64/TidLib.framework/Scenes.storyboardc/Info.plist</key>
@@ -358,11 +358,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tpg3mW6nHWm5IFOeJEM3eUFDeig=
+			DV3+/ghcV5FsESdbc/s/lIFxyyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			u0amodZS+BFLvwL/F2f9ZL7fvCpAPTcb09zxyovJjmk=
+			fsyuzniv+cvbw4Q5LTauEWTfLhyZY1MiC8W6aGeIWnI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Headers</key>
@@ -521,22 +521,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fe0BYTW4F6sJq0iH5HTkSC1EcU0=
+			LuBuCQIvse4urt79o/vr9H1lJhE=
 			</data>
 			<key>hash2</key>
 			<data>
-			MKftCnh+VHNAq0IM4FMSGKcCgwC6sKEIVGYpIYnLWM8=
+			KpKP3jY7ArH41IE/pWpMMVc7CvgfvD6mdt2LXyJJXps=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jw6Zs0MPFANI0VLnZbVpXsY5Kj0=
+			i2g1NlM4f2/+txoZKNVeE6VmW5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			97Oe+xkme9k8uJcmGHeI0ONweXPwGQG4qSM4yQMMya4=
+			ngVd8XMUmM1wvppRiFz8KEA4nU0Lh8gSJjBnXp94tsU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Resources/Scenes.storyboardc/Info.plist</key>
@@ -576,11 +576,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dksojPuiJjrwXSTAqau5vMspj/8=
+			olT+swY3DGICGIMqEl6R8/dhIPY=
 			</data>
 			<key>hash2</key>
 			<data>
-			rV5HDx6wLiWJ3ttueKP9rYPaZscSoI3rHvjBcNaFrMg=
+			I+SA8VxyERIz21b7kUW2UMjF1XK7OvuvPrGxFTj4WzA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/Current</key>
@@ -625,11 +625,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mTubNe8gQ1Dt+vx/7qUwXm50Dgo=
+			YeGmvjxc+1WV43VsoTe95xuJ20o=
 			</data>
 			<key>hash2</key>
 			<data>
-			kJ55M+WfsjD9a5Xz5bCfylyl2bN9z3vqFkHEX1vKZXA=
+			T1VvabLig5Ijn6r9tysiH1ZiKWb+LesKLbf1EWASGdo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -735,11 +735,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jw6Zs0MPFANI0VLnZbVpXsY5Kj0=
+			i2g1NlM4f2/+txoZKNVeE6VmW5U=
 			</data>
 			<key>hash2</key>
 			<data>
-			97Oe+xkme9k8uJcmGHeI0ONweXPwGQG4qSM4yQMMya4=
+			ngVd8XMUmM1wvppRiFz8KEA4nU0Lh8gSJjBnXp94tsU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Scenes.storyboardc/Info.plist</key>
@@ -779,22 +779,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mL0tQCmOPWI/gsfWdENcnA1z754=
+			vQlBh1qHTpnB1L9H2HoAt13LVOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			bABAw6IUBd1BkETzsQgq/ui6xm/qtkcZSJLVfK4bZGM=
+			FLgXJiqRHbesdf1p4SOBjlFPkTOyQUBI9nifBD3/7Pg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X9koERACcfJV80m9r1KrVh+J9p8=
+			wHKsahqzkW7LVHkrejDNlEYhEqI=
 			</data>
 			<key>hash2</key>
 			<data>
-			BNMa52mXB0NOdfBi1IOCEjecNDXUidkcm18aFgLIgoA=
+			Xr8pbQXKXq7nNu8gb3gvWQK4ZhV3w3p0JVXPHUJVqz8=
 			</data>
 		</dict>
 	</dict>
