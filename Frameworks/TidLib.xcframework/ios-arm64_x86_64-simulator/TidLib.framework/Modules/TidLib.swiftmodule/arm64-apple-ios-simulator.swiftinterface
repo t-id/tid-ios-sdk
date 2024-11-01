@@ -60,7 +60,6 @@ public struct LogInfo : Swift.Codable {
   public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
   @available(iOS 13.0, *)
   public func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
-  public func loginForCode(redirectUri: Swift.String, state: Swift.String, nonce: Swift.String, scopes: Swift.Set<Swift.String> = [], completion: @escaping (Swift.Result<Foundation.URL, TidLib.TidError>) -> Swift.Void)
   public func login(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public func authorize(scopes: Swift.Set<Swift.String> = [], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public func join(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
