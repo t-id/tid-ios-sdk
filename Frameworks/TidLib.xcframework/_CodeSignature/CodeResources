@@ -18,11 +18,11 @@
 		</data>
 		<key>ios-arm64/TidLib.framework/Info.plist</key>
 		<data>
-		ZXEjbqYMu86uzk36mjmBa1UiXNU=
+		FDPAZ7QgkjwIDIj8MEIAD11znZI=
 		</data>
 		<key>ios-arm64/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MFNRjIqnjGINwbWWh3KE5BzC7Xc=
+		BxQAK9Zy+rpMIP6iWxyeCVT72rE=
 		</data>
 		<key>ios-arm64/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>ios-arm64/TidLib.framework/TidLib</key>
 		<data>
-		DP/N2ZdMedsJly/Efm9AvRtaCho=
+		uJHkTjwK3Pkjg4jNNnnBJT0/9/o=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Headers/TidLib-Swift.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Modules/TidLib.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
-		x4WDWZFh3xQ1ev3etKCK42s7wl8=
+		edRm0ziUdyF8AKJo0TxOUOwgZQc=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Modules/TidLib.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Modules/TidLib.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<data>
-		x4WDWZFh3xQ1ev3etKCK42s7wl8=
+		edRm0ziUdyF8AKJo0TxOUOwgZQc=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Modules/TidLib.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		hM3+IMkiVF7/cLgRI/S9g3peMlg=
+		n9JYgmGmGIXkzD77uf6WCeIXkH0=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/TidLib</key>
 		<data>
-		cRjxfbXwC6AafCstSLBHyKjCM2A=
+		fr6ZKReijC68TjnFgXQciXT4fUo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Assets.car</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Info.plist</key>
 		<data>
-		SYBq5UcD1BpbiKzVL9Ll5eVFYyU=
+		K7hcevZXrqBuF1qwAl8iVzGGbKo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		s9FhnLGQsfTbGDZNyjWrjj18wqc=
+		srnf9l4pnNejyrju/OKidIIf4tk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		s9FhnLGQsfTbGDZNyjWrjj18wqc=
+		srnf9l4pnNejyrju/OKidIIf4tk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -202,11 +202,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/TidLib</key>
 		<data>
-		ZdCA2e7dtaLlaqMPzjEe/kL2+Ns=
+		xuEoAQ0cOlzSxm9Uw1iEx9XgHMs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/_CodeSignature/CodeResources</key>
 		<data>
-		uhHJofEYrKchfCAkMr/PXiI+zw0=
+		MVifs6aCcA5Q2CQaNt58/Q9zNJA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -248,22 +248,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZXEjbqYMu86uzk36mjmBa1UiXNU=
+			FDPAZ7QgkjwIDIj8MEIAD11znZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gssB+nO9uyYRmx9BSgk2lpQw2Vqd9iu2DommjZWFRWQ=
+			MVBpbklV1VxO/rf9Lqwwrt56SsWK9KtXorOX1f50Bok=
 			</data>
 		</dict>
 		<key>ios-arm64/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MFNRjIqnjGINwbWWh3KE5BzC7Xc=
+			BxQAK9Zy+rpMIP6iWxyeCVT72rE=
 			</data>
 			<key>hash2</key>
 			<data>
-			ySR30t3uubCJpFVi8cDX5m3/Yz4wr76n9iVWb2ZJXEs=
+			XlaPnnPy1fzWnQWYk5DpTKERc6ZVQKRyzuSe+4TVylo=
 			</data>
 		</dict>
 		<key>ios-arm64/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -358,11 +358,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DP/N2ZdMedsJly/Efm9AvRtaCho=
+			uJHkTjwK3Pkjg4jNNnnBJT0/9/o=
 			</data>
 			<key>hash2</key>
 			<data>
-			F3rMZmeWk5Dl9yeVHd6iiycfu1B8zusVbBXOUUhAm/k=
+			ZxkD5Pkw/5AxS6DsGVAejj3dLhRtJwUxPfI6+S4fW9k=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Headers</key>
@@ -411,11 +411,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x4WDWZFh3xQ1ev3etKCK42s7wl8=
+			edRm0ziUdyF8AKJo0TxOUOwgZQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			rqTJEVhofm02ZB030RtTfm7w35SVPxURojJsbl2tCJY=
+			jenA8No45pMtw+j8rPgxZsSW3j3I8I/x8woIb9l01v0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Modules/TidLib.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
@@ -455,11 +455,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x4WDWZFh3xQ1ev3etKCK42s7wl8=
+			edRm0ziUdyF8AKJo0TxOUOwgZQc=
 			</data>
 			<key>hash2</key>
 			<data>
-			rqTJEVhofm02ZB030RtTfm7w35SVPxURojJsbl2tCJY=
+			jenA8No45pMtw+j8rPgxZsSW3j3I8I/x8woIb9l01v0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Modules/TidLib.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
@@ -521,11 +521,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hM3+IMkiVF7/cLgRI/S9g3peMlg=
+			n9JYgmGmGIXkzD77uf6WCeIXkH0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mzoGcHo/Lblt9mgaH1kVM1aWjS+7GfzpG8QsSortuL4=
+			k39UkFan8H6jskiwNlYib9+K7XjL6TE86j0GXPSZ0QA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
@@ -576,11 +576,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cRjxfbXwC6AafCstSLBHyKjCM2A=
+			fr6ZKReijC68TjnFgXQciXT4fUo=
 			</data>
 			<key>hash2</key>
 			<data>
-			O3ZTGLZJr9jLOhss+bhYhZ4TeAtftNszEQDYj1GSMsk=
+			EyTxb39K6D/wgj97bUENRjWimHn1CDHeUnzBN8V+d8g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/TidLib.framework/Versions/Current</key>
@@ -625,22 +625,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SYBq5UcD1BpbiKzVL9Ll5eVFYyU=
+			K7hcevZXrqBuF1qwAl8iVzGGbKo=
 			</data>
 			<key>hash2</key>
 			<data>
-			DkR9xhpV45+70U4xWxmEzJIFC2IqB+b6c7ekU3PFDgI=
+			O4ICrhz9ieJ0yBqqZbXZUpLviZU01VZnR8lzGJrmlt4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			s9FhnLGQsfTbGDZNyjWrjj18wqc=
+			srnf9l4pnNejyrju/OKidIIf4tk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zt+teOX8Imhut7Pz5Xo3+7nx1pwA1boXnd86wGgkhW4=
+			jvCBY4Z0DsdJwCzviqHVAVf5rDPl2hP3FH6G2MpVqDE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -680,11 +680,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			s9FhnLGQsfTbGDZNyjWrjj18wqc=
+			srnf9l4pnNejyrju/OKidIIf4tk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Zt+teOX8Imhut7Pz5Xo3+7nx1pwA1boXnd86wGgkhW4=
+			jvCBY4Z0DsdJwCzviqHVAVf5rDPl2hP3FH6G2MpVqDE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -779,22 +779,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZdCA2e7dtaLlaqMPzjEe/kL2+Ns=
+			xuEoAQ0cOlzSxm9Uw1iEx9XgHMs=
 			</data>
 			<key>hash2</key>
 			<data>
-			FG4XJ6wPHuoEwarxNmp9bEHUYcEw+l3I1Zqh0/yqsTs=
+			/ThMcW8PiCO4Ialv/JuEN75JpZmcl4lcdehq/yMZJLQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/TidLib.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uhHJofEYrKchfCAkMr/PXiI+zw0=
+			MVifs6aCcA5Q2CQaNt58/Q9zNJA=
 			</data>
 			<key>hash2</key>
 			<data>
-			IZK4o9/L/GZK3T4QDH8Z2YIyncL8PKYzBswUGS43Mzw=
+			p6v6EUqXkHrdsEycgtoqEEsFeBkCbUrJwj+Q7optq6U=
 			</data>
 		</dict>
 	</dict>
