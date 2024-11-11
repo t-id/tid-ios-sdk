@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TidLib
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AppKit
 import AuthenticationServices
 import CommonCrypto
@@ -56,12 +57,11 @@ public struct LogInfo : Swift.Codable {
   public var version: Swift.String {
     get
   }
-  public func initSDK(clientId: Swift.String, appGroup: Swift.String? = nil)
+  public func initSDK(clientId: Swift.String, appGroup: Swift.String? = nil, options: [Swift.String : Any]? = nil)
   public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
   @available(iOS 13.0, *)
   public func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
-  public func loginForCode(redirectUri: Swift.String, state: Swift.String, nonce: Swift.String, scopes: Swift.Set<Swift.String> = [], completion: @escaping (Swift.Result<Foundation.URL, TidLib.TidError>) -> Swift.Void)
-  public func login(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
+  public func login(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public func authorize(scopes: Swift.Set<Swift.String> = [], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public func join(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public var hasToken: Swift.Bool {
