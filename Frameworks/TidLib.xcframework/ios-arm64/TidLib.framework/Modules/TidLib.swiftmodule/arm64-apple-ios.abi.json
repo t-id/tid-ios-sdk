@@ -749,6 +749,129 @@
         "children": [
           {
             "kind": "Var",
+            "name": "idev",
+            "printedName": "idev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TidLib.TidAppEventsServerType.Type) -> TidLib.TidAppEventsServerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TidAppEventsServerType",
+                    "printedName": "TidLib.TidAppEventsServerType",
+                    "usr": "c:@M@TidLib@E@TidAppEventsServerType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TidLib.TidAppEventsServerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidAppEventsServerType",
+                        "printedName": "TidLib.TidAppEventsServerType",
+                        "usr": "c:@M@TidLib@E@TidAppEventsServerType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TidLib@E@TidAppEventsServerType@TidAppEventsServerTypeIdev",
+            "mangledName": "$s6TidLib0A19AppEventsServerTypeO4idevyA2CmF",
+            "moduleName": "TidLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "iqa",
+            "printedName": "iqa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TidLib.TidAppEventsServerType.Type) -> TidLib.TidAppEventsServerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TidAppEventsServerType",
+                    "printedName": "TidLib.TidAppEventsServerType",
+                    "usr": "c:@M@TidLib@E@TidAppEventsServerType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TidLib.TidAppEventsServerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidAppEventsServerType",
+                        "printedName": "TidLib.TidAppEventsServerType",
+                        "usr": "c:@M@TidLib@E@TidAppEventsServerType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TidLib@E@TidAppEventsServerType@TidAppEventsServerTypeIqa",
+            "mangledName": "$s6TidLib0A19AppEventsServerTypeO3iqayA2CmF",
+            "moduleName": "TidLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "istg",
+            "printedName": "istg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TidLib.TidAppEventsServerType.Type) -> TidLib.TidAppEventsServerType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TidAppEventsServerType",
+                    "printedName": "TidLib.TidAppEventsServerType",
+                    "usr": "c:@M@TidLib@E@TidAppEventsServerType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TidLib.TidAppEventsServerType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidAppEventsServerType",
+                        "printedName": "TidLib.TidAppEventsServerType",
+                        "usr": "c:@M@TidLib@E@TidAppEventsServerType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@TidLib@E@TidAppEventsServerType@TidAppEventsServerTypeIstg",
+            "mangledName": "$s6TidLib0A19AppEventsServerTypeO4istgyA2CmF",
+            "moduleName": "TidLib",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
             "name": "dev",
             "printedName": "dev",
             "children": [
@@ -786,7 +909,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 0
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Var",
@@ -827,7 +950,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 1
+            "fixedbinaryorder": 4
           },
           {
             "kind": "Var",
@@ -868,7 +991,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 2
+            "fixedbinaryorder": 5
           },
           {
             "kind": "Var",
@@ -909,7 +1032,7 @@
             "declAttributes": [
               "ObjC"
             ],
-            "fixedbinaryorder": 3
+            "fixedbinaryorder": 6
           },
           {
             "kind": "Constructor",
@@ -2938,6 +3061,117 @@
         "name": "TidServerHost",
         "printedName": "TidServerHost",
         "children": [
+          {
+            "kind": "Var",
+            "name": "idev",
+            "printedName": "idev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TidLib.TidServerHost.Type) -> TidLib.TidServerHost",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TidServerHost",
+                    "printedName": "TidLib.TidServerHost",
+                    "usr": "s:6TidLib0A10ServerHostO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TidLib.TidServerHost.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidServerHost",
+                        "printedName": "TidLib.TidServerHost",
+                        "usr": "s:6TidLib0A10ServerHostO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TidLib0A10ServerHostO4idevyA2CmF",
+            "mangledName": "$s6TidLib0A10ServerHostO4idevyA2CmF",
+            "moduleName": "TidLib"
+          },
+          {
+            "kind": "Var",
+            "name": "iqa",
+            "printedName": "iqa",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TidLib.TidServerHost.Type) -> TidLib.TidServerHost",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TidServerHost",
+                    "printedName": "TidLib.TidServerHost",
+                    "usr": "s:6TidLib0A10ServerHostO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TidLib.TidServerHost.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidServerHost",
+                        "printedName": "TidLib.TidServerHost",
+                        "usr": "s:6TidLib0A10ServerHostO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TidLib0A10ServerHostO3iqayA2CmF",
+            "mangledName": "$s6TidLib0A10ServerHostO3iqayA2CmF",
+            "moduleName": "TidLib"
+          },
+          {
+            "kind": "Var",
+            "name": "istg",
+            "printedName": "istg",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TidLib.TidServerHost.Type) -> TidLib.TidServerHost",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TidServerHost",
+                    "printedName": "TidLib.TidServerHost",
+                    "usr": "s:6TidLib0A10ServerHostO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TidLib.TidServerHost.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidServerHost",
+                        "printedName": "TidLib.TidServerHost",
+                        "usr": "s:6TidLib0A10ServerHostO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6TidLib0A10ServerHostO4istgyA2CmF",
+            "mangledName": "$s6TidLib0A10ServerHostO4istgyA2CmF",
+            "moduleName": "TidLib"
+          },
           {
             "kind": "Var",
             "name": "dev",
@@ -31425,23 +31659,44 @@
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "IntegerLiteral",
-      "offset": 2911,
-      "length": 2,
+      "offset": 2912,
+      "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "IntegerLiteral",
-      "offset": 2915,
-      "length": 3,
+      "offset": 2917,
+      "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "IntegerLiteral",
-      "offset": 2920,
-      "length": 4,
+      "offset": 2923,
+      "length": 3,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2928,
+      "length": 2,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2932,
+      "length": 3,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2937,
+      "length": 4,
+      "value": "6"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/LogInfo.swift",
@@ -31537,70 +31792,70 @@
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3430,
+      "offset": 4004,
       "length": 21,
       "value": "\"\/oidc\/v20\/authorize\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3498,
+      "offset": 4072,
       "length": 19,
       "value": "\"\/oidc\/v20\/qr\/read\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3564,
+      "offset": 4138,
       "length": 17,
       "value": "\"\/oidc\/v20\/token\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3628,
+      "offset": 4202,
       "length": 28,
       "value": "\"\/oidc\/v20\/token\/clients\/%@\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3703,
+      "offset": 4277,
       "length": 31,
       "value": "\"\/oidc\/v20\/userinfo\/clients\/%@\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3815,
+      "offset": 4389,
       "length": 8,
       "value": "\"TID_AT\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3866,
+      "offset": 4440,
       "length": 8,
       "value": "\"TID_EI\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3920,
+      "offset": 4494,
       "length": 8,
       "value": "\"TID_RT\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 3974,
+      "offset": 4548,
       "length": 8,
       "value": "\"TID_CV\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 4025,
+      "offset": 4599,
       "length": 8,
       "value": "\"TID_RI\""
     },
@@ -31614,196 +31869,217 @@
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 1199,
+      "offset": 1341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 1399,
+      "offset": 1541,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Array",
-      "offset": 3184,
+      "offset": 3326,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 3893,
+      "offset": 4035,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 4399,
+      "offset": 4541,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Array",
-      "offset": 5520,
+      "offset": 5662,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 16622,
+      "offset": 16764,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 16905,
+      "offset": 17047,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 17570,
+      "offset": 17712,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 17876,
+      "offset": 18018,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 18561,
+      "offset": 18703,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 18865,
+      "offset": 19007,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 19498,
+      "offset": 19640,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 19787,
+      "offset": 19929,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 20391,
+      "offset": 20533,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 21088,
+      "offset": 21230,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 21940,
+      "offset": 22082,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 23043,
+      "offset": 23185,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 24142,
+      "offset": 24284,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 29595,
+      "offset": 29737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 32110,
+      "offset": 32252,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 36537,
-      "length": 2,
+      "offset": 36680,
+      "length": 3,
       "value": "1"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 36549,
-      "length": 3,
+      "offset": 36693,
+      "length": 4,
       "value": "2"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 36562,
-      "length": 4,
+      "offset": 36707,
+      "length": 3,
       "value": "3"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36720,
+      "length": 2,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36732,
+      "length": 3,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36745,
+      "length": 4,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 36611,
+      "offset": 36794,
       "length": 5,
       "value": "\"get\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 36633,
+      "offset": 36816,
       "length": 6,
       "value": "\"post\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 36655,
+      "offset": 36838,
       "length": 5,
       "value": "\"put\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "StringLiteral",
-      "offset": 36679,
+      "offset": 36862,
       "length": 8,
       "value": "\"delete\""
     },
