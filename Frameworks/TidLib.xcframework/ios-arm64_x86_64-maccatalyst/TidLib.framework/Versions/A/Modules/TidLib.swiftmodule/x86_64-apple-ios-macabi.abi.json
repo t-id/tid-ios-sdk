@@ -366,12 +366,9 @@
             "mangledName": "$s6TidLib0A9AppEventsC10serverTypeAA0acd6ServerF0Ovp",
             "moduleName": "TidLib",
             "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
               "AccessControl",
               "ObjC"
             ],
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -389,7 +386,6 @@
                 "usr": "c:@M@TidLib@objc(cs)TidAppEvents(im)serverType",
                 "mangledName": "$s6TidLib0A9AppEventsC10serverTypeAA0acd6ServerF0Ovg",
                 "moduleName": "TidLib",
-                "implicit": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -416,7 +412,6 @@
                 "usr": "c:@M@TidLib@objc(cs)TidAppEvents(im)setServerType:",
                 "mangledName": "$s6TidLib0A9AppEventsC10serverTypeAA0acd6ServerF0Ovs",
                 "moduleName": "TidLib",
-                "implicit": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -30854,56 +30849,63 @@
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "StringLiteral",
-      "offset": 400,
+      "offset": 294,
+      "length": 29,
+      "value": "\"com.skt.TidLib.TidAppEvents\""
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "StringLiteral",
-      "offset": 1440,
+      "offset": 1738,
       "length": 21,
       "value": "\"CFBundleDisplayName\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "StringLiteral",
-      "offset": 1477,
+      "offset": 1775,
       "length": 8,
       "value": "\"NotSet\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "BooleanLiteral",
-      "offset": 1515,
+      "offset": 1813,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "BooleanLiteral",
-      "offset": 1549,
+      "offset": 1847,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "IntegerLiteral",
-      "offset": 2911,
+      "offset": 3296,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "IntegerLiteral",
-      "offset": 2915,
+      "offset": 3300,
       "length": 3,
       "value": "2"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
       "kind": "IntegerLiteral",
-      "offset": 2920,
+      "offset": 3305,
       "length": 4,
       "value": "3"
     },
@@ -31624,7 +31626,7 @@
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/LogApiService.swift",
       "kind": "IntegerLiteral",
-      "offset": 186,
+      "offset": 194,
       "length": 5,
       "value": "99999"
     },
@@ -34753,16 +34755,23 @@
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/LogDatabaseManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 218,
+      "offset": 217,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/LogDatabaseManager.swift",
       "kind": "StringLiteral",
-      "offset": 279,
+      "offset": 271,
       "length": 24,
       "value": "\"tidSdkErrorLogs.sqlite\""
+    },
+    {
+      "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/LogDatabaseManager.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 35,
+      "value": "\"com.skt.TidLib.LogDatabaseManager\""
     },
     {
       "filePath": "\/Users\/1004454\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/External\/Data+Gzip.swift",

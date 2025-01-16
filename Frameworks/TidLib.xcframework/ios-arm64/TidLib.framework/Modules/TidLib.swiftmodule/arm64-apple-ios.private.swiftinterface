@@ -27,7 +27,10 @@ public enum LogDevice {
 }
 @_inheritsConvenienceInitializers @objc open class TidAppEvents : ObjectiveC.NSObject {
   @objc public static let shared: TidLib.TidAppEvents
-  @objc public var serverType: TidLib.TidAppEventsServerType
+  @objc public var serverType: TidLib.TidAppEventsServerType {
+    @objc get
+    @objc set
+  }
   @objc override dynamic public init()
   @objc deinit
   @objc public func initSDK(sdkVer: Swift.String, clientId: Swift.String, clientName: Swift.String = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? "NotSet", isChnlLogin: Swift.Bool = false, isRealName: Swift.Bool = false)
