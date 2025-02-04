@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TidLib
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AuthenticationServices
@@ -27,7 +27,10 @@ public enum LogDevice {
 }
 @_inheritsConvenienceInitializers @objc open class TidAppEvents : ObjectiveC.NSObject {
   @objc public static let shared: TidLib.TidAppEvents
-  @objc public var serverType: TidLib.TidAppEventsServerType
+  @objc public var serverType: TidLib.TidAppEventsServerType {
+    @objc get
+    @objc set
+  }
   @objc override dynamic public init()
   @objc deinit
   @objc public func initSDK(sdkVer: Swift.String, clientId: Swift.String, clientName: Swift.String = Bundle.main.object(forInfoDictionaryKey: "CFBundleDisplayName") as? String ?? "NotSet", isChnlLogin: Swift.Bool = false, isRealName: Swift.Bool = false)
@@ -53,6 +56,10 @@ public struct LogInfo : Swift.Codable {
     set
   }
   public var enableLog: Swift.Bool
+  public var requestTimeout: Foundation.TimeInterval {
+    get
+    set
+  }
   public var version: Swift.String {
     get
   }
@@ -61,7 +68,6 @@ public struct LogInfo : Swift.Codable {
   @available(iOS 13.0, *)
   public func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
   public func login(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
-  public func authorize(scopes: Swift.Set<Swift.String> = [], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public func join(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public var hasToken: Swift.Bool {
     get
@@ -76,7 +82,7 @@ public struct LogInfo : Swift.Codable {
   public func requestPut<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
   public func requestDelete(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
   public func requestDelete<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
-  public func presentAuthWeb(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: ((Swift.Result<[Swift.String : Swift.String], TidLib.TidError>) -> Swift.Void)? = nil)
+  public func serviceWeb(serviceType: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: ((Swift.Result<[Swift.String : Swift.String], TidLib.TidError>) -> Swift.Void)? = nil)
   @objc deinit
 }
 public enum TidServerHost : Swift.Int {
