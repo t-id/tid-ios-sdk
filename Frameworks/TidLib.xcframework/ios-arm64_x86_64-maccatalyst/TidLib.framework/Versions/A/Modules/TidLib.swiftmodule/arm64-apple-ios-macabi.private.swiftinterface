@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TidLib
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AppKit
@@ -84,6 +84,7 @@ public struct LogInfo : Swift.Codable {
   public func requestDelete(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
   public func requestDelete<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
   public func serviceWeb(serviceType: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: ((Swift.Result<[Swift.String : Swift.String], TidLib.TidError>) -> Swift.Void)? = nil)
+  public func tidBiz(type: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
   @objc deinit
 }
 public enum TidServerHost : Swift.Int {
