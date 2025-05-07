@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TidLib
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.1-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TidLib
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AppKit
 import AuthenticationServices
 import CommonCrypto
@@ -65,11 +65,10 @@ public struct LogInfo : Swift.Codable {
     get
   }
   public func initSDK(clientId: Swift.String, appGroup: Swift.String? = nil, options: [Swift.String : Any]? = nil)
-  public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any]) -> Swift.Bool
-  @available(iOS 13.0, *)
-  public func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
+  public func handleOpen(url: Foundation.URL) -> Swift.Bool
+  public func processProviderLink(url: Foundation.URL, userAccessToken: Swift.String?)
   public func login(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
-  public func join(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
+  public func join(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
   public var hasToken: Swift.Bool {
     get
   }
@@ -98,7 +97,7 @@ public enum TidServerHost : Swift.Int {
     get
   }
 }
-@frozen public enum TidError : Swift.Error {
+@frozen public enum TidError : Swift.Error, Swift.Equatable {
   public enum failureReason {
     case server
     case app
@@ -113,7 +112,9 @@ public enum TidServerHost : Swift.Int {
   case userCancel(_: any Swift.Error)
   case invalidToken(_: any Swift.Error)
   case normalError(_: any Swift.Error, reason: TidLib.TidError.failureReason)
+  public static func == (lhs: TidLib.TidError, rhs: TidLib.TidError) -> Swift.Bool
   public static let ERROR_USER_CANCEL: TidLib.TidError
+  public static let ERROR_APPTOAPP_CANCEL: TidLib.TidError
 }
 extension TidLib.TidError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
@@ -940,6 +941,21 @@ extension Foundation.Data {
   }
   public func gzipped(level: TidLib.CompressionLevel = .defaultCompression) throws -> Foundation.Data
   public func gunzipped() throws -> Foundation.Data
+}
+public class ProviderClientsInfo : Swift.Decodable {
+  final public let consumer: TidLib.ClientInfo?
+  final public let audience: TidLib.ClientInfo
+  final public let login_id: Swift.String?
+  @objc deinit
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class ClientInfo : Swift.Decodable {
+  final public let client_id: Swift.String
+  final public let channel_name: Swift.String
+  final public let channel_color: Swift.String?
+  final public let channel_logo_img: Swift.String?
+  @objc deinit
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum ReachabilityError : Swift.Error {
   case FailedToCreateWithAddress(Darwin.sockaddr_in)
