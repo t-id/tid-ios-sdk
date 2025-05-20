@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		inZmLRKZ3I4+MBDpPkbjPQyg+wY=
+		ar5ZBnhhoAELnG8vqS9FLLWDh/c=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		LSsxPDWtyL8+qFwOe687yj6/Mjs=
+		sYt+nt1nU36yTze9Xu7i1kD0LvM=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zam/BdlwihurwCe53EDhrXpHrHU=
+		fhFqyKJPaB/TZniity8HZZI5jQI=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LSsxPDWtyL8+qFwOe687yj6/Mjs=
+		sYt+nt1nU36yTze9Xu7i1kD0LvM=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pWJBIadt4T/yGRsgaqw1ULy952Q=
+		odhyo5ODi3TakrGzWvKfpL+dJZY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uNIDB4LW5DhCYhaiKWohAEZlNOsEMStJ2d079kQoxbQ=
+			0mvDbuPcTLv68lb7ZnAxHxuWmBJucxauH9PEhKZQxnY=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,14 +144,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bghS1jr4p+UllatKqbdtkvHcZ3Eyflty4GAcPyR+MKY=
+			YJyKBEJUoFT1DQVG+ZY3cnwxbUhI4HbRRU3Zl9IbwcM=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uNIDB4LW5DhCYhaiKWohAEZlNOsEMStJ2d079kQoxbQ=
+			0mvDbuPcTLv68lb7ZnAxHxuWmBJucxauH9PEhKZQxnY=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fizfT9RGOHNlZxgaZSLuM5M4lYkVA6GPlTodbAdDAeQ=
+			5YaB9cyS/UPdYcJQ7pv7CHRNit7ElXraZ+muaAqpD2U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
