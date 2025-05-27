@@ -1844,7 +1844,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> ()",
+                "printedName": "(Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1854,13 +1854,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<TidLib.TokenInfo, TidLib.TidError>",
+                    "printedName": "Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "TokenInfo",
-                        "printedName": "TidLib.TokenInfo",
-                        "usr": "s:6TidLib9TokenInfoC"
+                        "name": "TidAuthInfo",
+                        "printedName": "TidLib.TidAuthInfo",
+                        "usr": "s:6TidLib0A8AuthInfoC"
                       },
                       {
                         "kind": "TypeNominal",
@@ -1875,8 +1875,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6TidLib0A4AuthC5login6params10completionySDyS2SG_ys6ResultOyAA9TokenInfoCAA0A5ErrorOGctF",
-            "mangledName": "$s6TidLib0A4AuthC5login6params10completionySDyS2SG_ys6ResultOyAA9TokenInfoCAA0A5ErrorOGctF",
+            "usr": "s:6TidLib0A4AuthC5login6params10completionySDyS2SG_ys6ResultOyAA0aC4InfoCAA0A5ErrorOGctF",
+            "mangledName": "$s6TidLib0A4AuthC5login6params10completionySDyS2SG_ys6ResultOyAA0aC4InfoCAA0A5ErrorOGctF",
             "moduleName": "TidLib",
             "declAttributes": [
               "AccessControl",
@@ -1918,7 +1918,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> ()",
+                "printedName": "(Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1928,13 +1928,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<TidLib.TokenInfo, TidLib.TidError>",
+                    "printedName": "Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "TokenInfo",
-                        "printedName": "TidLib.TokenInfo",
-                        "usr": "s:6TidLib9TokenInfoC"
+                        "name": "TidAuthInfo",
+                        "printedName": "TidLib.TidAuthInfo",
+                        "usr": "s:6TidLib0A8AuthInfoC"
                       },
                       {
                         "kind": "TypeNominal",
@@ -1949,8 +1949,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6TidLib0A4AuthC4join6params10completionySDyS2SG_ys6ResultOyAA9TokenInfoCAA0A5ErrorOGctF",
-            "mangledName": "$s6TidLib0A4AuthC4join6params10completionySDyS2SG_ys6ResultOyAA9TokenInfoCAA0A5ErrorOGctF",
+            "usr": "s:6TidLib0A4AuthC4join6params10completionySDyS2SG_ys6ResultOyAA0aC4InfoCAA0A5ErrorOGctF",
+            "mangledName": "$s6TidLib0A4AuthC4join6params10completionySDyS2SG_ys6ResultOyAA0aC4InfoCAA0A5ErrorOGctF",
             "moduleName": "TidLib",
             "declAttributes": [
               "AccessControl",
@@ -2012,7 +2012,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> ()",
+                "printedName": "(Swift.Result<TidLib.TidTokenInfo, TidLib.TidError>) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2022,13 +2022,13 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Result",
-                    "printedName": "Swift.Result<TidLib.TokenInfo, TidLib.TidError>",
+                    "printedName": "Swift.Result<TidLib.TidTokenInfo, TidLib.TidError>",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "TokenInfo",
-                        "printedName": "TidLib.TokenInfo",
-                        "usr": "s:6TidLib9TokenInfoC"
+                        "name": "TidTokenInfo",
+                        "printedName": "TidLib.TidTokenInfo",
+                        "usr": "s:6TidLib0A9TokenInfoC"
                       },
                       {
                         "kind": "TypeNominal",
@@ -2043,8 +2043,74 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6TidLib0A4AuthC15accessTokenInfo10completionyys6ResultOyAA0eF0CAA0A5ErrorOGc_tF",
-            "mangledName": "$s6TidLib0A4AuthC15accessTokenInfo10completionyys6ResultOyAA0eF0CAA0A5ErrorOGc_tF",
+            "usr": "s:6TidLib0A4AuthC15accessTokenInfo10completionyys6ResultOyAA0aeF0CAA0A5ErrorOGc_tF",
+            "mangledName": "$s6TidLib0A4AuthC15accessTokenInfo10completionyys6ResultOyAA0aeF0CAA0A5ErrorOGc_tF",
+            "moduleName": "TidLib",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userInfo",
+            "printedName": "userInfo(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<[Swift.String : Any], TidLib.TidError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<[Swift.String : Any], TidLib.TidError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TidError",
+                        "printedName": "TidLib.TidError",
+                        "usr": "s:6TidLib0A5ErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6TidLib0A4AuthC8userInfo10completionyys6ResultOySDySSypGAA0A5ErrorOGc_tF",
+            "mangledName": "$s6TidLib0A4AuthC8userInfo10completionyys6ResultOySDySSypGAA0A5ErrorOGc_tF",
             "moduleName": "TidLib",
             "declAttributes": [
               "AccessControl",
@@ -30652,6 +30718,119 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "TidAuthInfo",
+        "printedName": "TidAuthInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "idToken",
+            "printedName": "idToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6TidLib0A8AuthInfoC7idTokenSSvp",
+            "mangledName": "$s6TidLib0A8AuthInfoC7idTokenSSvp",
+            "moduleName": "TidLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6TidLib0A8AuthInfoC7idTokenSSvg",
+                "mangledName": "$s6TidLib0A8AuthInfoC7idTokenSSvg",
+                "moduleName": "TidLib",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TidAuthInfo",
+                "printedName": "TidLib.TidAuthInfo",
+                "usr": "s:6TidLib0A8AuthInfoC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6TidLib0A8AuthInfoC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6TidLib0A8AuthInfoC4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TidLib",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6TidLib0A8AuthInfoC",
+        "mangledName": "$s6TidLib0A8AuthInfoC",
+        "moduleName": "TidLib",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "superclassUsr": "s:6TidLib0A9TokenInfoC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "TidLib.TidTokenInfo"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -30663,13 +30842,13 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "TokenInfo",
-        "printedName": "TokenInfo",
+        "name": "TidTokenInfo",
+        "printedName": "TidTokenInfo",
         "children": [
           {
             "kind": "Var",
-            "name": "access_token",
-            "printedName": "access_token",
+            "name": "accessToken",
+            "printedName": "accessToken",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30679,16 +30858,12 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6TidLib9TokenInfoC12access_tokenSSvp",
-            "mangledName": "$s6TidLib9TokenInfoC12access_tokenSSvp",
+            "usr": "s:6TidLib0A9TokenInfoC06accessC0SSvp",
+            "mangledName": "$s6TidLib0A9TokenInfoC06accessC0SSvp",
             "moduleName": "TidLib",
             "declAttributes": [
-              "Final",
-              "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -30703,85 +30878,17 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6TidLib9TokenInfoC12access_tokenSSvg",
-                "mangledName": "$s6TidLib9TokenInfoC12access_tokenSSvg",
+                "usr": "s:6TidLib0A9TokenInfoC06accessC0SSvg",
+                "mangledName": "$s6TidLib0A9TokenInfoC06accessC0SSvg",
                 "moduleName": "TidLib",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
                 "accessorKind": "get"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "token_type",
-            "printedName": "token_type",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6TidLib9TokenInfoC10token_typeSSSgvp",
-            "mangledName": "$s6TidLib9TokenInfoC10token_typeSSSgvp",
-            "moduleName": "TidLib",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6TidLib9TokenInfoC10token_typeSSSgvg",
-                "mangledName": "$s6TidLib9TokenInfoC10token_typeSSSgvg",
-                "moduleName": "TidLib",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "expires_in",
-            "printedName": "expires_in",
+            "name": "expiresIn",
+            "printedName": "expiresIn",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30791,16 +30898,12 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6TidLib9TokenInfoC10expires_inSivp",
-            "mangledName": "$s6TidLib9TokenInfoC10expires_inSivp",
+            "usr": "s:6TidLib0A9TokenInfoC9expiresInSivp",
+            "mangledName": "$s6TidLib0A9TokenInfoC9expiresInSivp",
             "moduleName": "TidLib",
             "declAttributes": [
-              "Final",
-              "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -30815,21 +30918,17 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6TidLib9TokenInfoC10expires_inSivg",
-                "mangledName": "$s6TidLib9TokenInfoC10expires_inSivg",
+                "usr": "s:6TidLib0A9TokenInfoC9expiresInSivg",
+                "mangledName": "$s6TidLib0A9TokenInfoC9expiresInSivg",
                 "moduleName": "TidLib",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
                 "accessorKind": "get"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "refresh_token",
-            "printedName": "refresh_token",
+            "name": "refreshToken",
+            "printedName": "refreshToken",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30839,16 +30938,12 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6TidLib9TokenInfoC13refresh_tokenSSvp",
-            "mangledName": "$s6TidLib9TokenInfoC13refresh_tokenSSvp",
+            "usr": "s:6TidLib0A9TokenInfoC07refreshC0SSvp",
+            "mangledName": "$s6TidLib0A9TokenInfoC07refreshC0SSvp",
             "moduleName": "TidLib",
             "declAttributes": [
-              "Final",
-              "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -30863,21 +30958,57 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6TidLib9TokenInfoC13refresh_tokenSSvg",
-                "mangledName": "$s6TidLib9TokenInfoC13refresh_tokenSSvg",
+                "usr": "s:6TidLib0A9TokenInfoC07refreshC0SSvg",
+                "mangledName": "$s6TidLib0A9TokenInfoC07refreshC0SSvg",
                 "moduleName": "TidLib",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
                 "accessorKind": "get"
               }
             ]
           },
           {
             "kind": "Var",
-            "name": "id_token",
-            "printedName": "id_token",
+            "name": "sub",
+            "printedName": "sub",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6TidLib0A9TokenInfoC3subSSvp",
+            "mangledName": "$s6TidLib0A9TokenInfoC3subSSvp",
+            "moduleName": "TidLib",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6TidLib0A9TokenInfoC3subSSvg",
+                "mangledName": "$s6TidLib0A9TokenInfoC3subSSvg",
+                "moduleName": "TidLib",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subsId",
+            "printedName": "subsId",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30895,16 +31026,12 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:6TidLib9TokenInfoC8id_tokenSSSgvp",
-            "mangledName": "$s6TidLib9TokenInfoC8id_tokenSSSgvp",
+            "usr": "s:6TidLib0A9TokenInfoC6subsIdSSSgvp",
+            "mangledName": "$s6TidLib0A9TokenInfoC6subsIdSSSgvp",
             "moduleName": "TidLib",
             "declAttributes": [
-              "Final",
-              "HasStorage",
               "AccessControl"
             ],
-            "isLet": true,
-            "hasStorage": true,
             "accessors": [
               {
                 "kind": "Accessor",
@@ -30927,78 +31054,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:6TidLib9TokenInfoC8id_tokenSSSgvg",
-                "mangledName": "$s6TidLib9TokenInfoC8id_tokenSSSgvg",
-                "moduleName": "TidLib",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "user_info",
-            "printedName": "user_info",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6TidLib9TokenInfoC9user_infoSDySSypGvp",
-            "mangledName": "$s6TidLib9TokenInfoC9user_infoSDySSypGvp",
-            "moduleName": "TidLib",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[Swift.String : Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6TidLib9TokenInfoC9user_infoSDySSypGvg",
-                "mangledName": "$s6TidLib9TokenInfoC9user_infoSDySSypGvg",
+                "usr": "s:6TidLib0A9TokenInfoC6subsIdSSSgvg",
+                "mangledName": "$s6TidLib0A9TokenInfoC6subsIdSSSgvg",
                 "moduleName": "TidLib",
                 "accessorKind": "get"
               }
@@ -31011,9 +31068,9 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "TokenInfo",
-                "printedName": "TidLib.TokenInfo",
-                "usr": "s:6TidLib9TokenInfoC"
+                "name": "TidTokenInfo",
+                "printedName": "TidLib.TidTokenInfo",
+                "usr": "s:6TidLib0A9TokenInfoC"
               },
               {
                 "kind": "TypeNominal",
@@ -31023,8 +31080,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6TidLib9TokenInfoC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s6TidLib9TokenInfoC4fromACs7Decoder_p_tKcfc",
+            "usr": "s:6TidLib0A9TokenInfoC4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6TidLib0A9TokenInfoC4fromACs7Decoder_p_tKcfc",
             "moduleName": "TidLib",
             "implicit": true,
             "declAttributes": [
@@ -31035,8 +31092,8 @@
           }
         ],
         "declKind": "Class",
-        "usr": "s:6TidLib9TokenInfoC",
-        "mangledName": "$s6TidLib9TokenInfoC",
+        "usr": "s:6TidLib0A9TokenInfoC",
+        "mangledName": "$s6TidLib0A9TokenInfoC",
         "moduleName": "TidLib",
         "declAttributes": [
           "AccessControl"
@@ -32108,6 +32165,34 @@
       "value": "\"SKTAppSSOFramework_Identifier_For_iOS\""
     },
     {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/TokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 183,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/TokenManager.swift",
+      "kind": "Array",
+      "offset": 276,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/TokenManager.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 31,
+      "value": "\"com.tid.sdk.auth.request.sync\""
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/TokenManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3182,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/LogDevice.swift",
       "kind": "StringLiteral",
       "offset": 398,
@@ -32134,6 +32219,20 @@
       "offset": 807,
       "length": 3,
       "value": "\".\""
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Common\/TaskIdGenerator.swift",
+      "kind": "IntegerLiteral",
+      "offset": 139,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Common\/TaskIdGenerator.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 23,
+      "value": "\"TaskIdGenerator.queue\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidAppEvents\/TidAppEvents\/TidAppEvents.swift",
@@ -32273,7 +32372,7 @@
       "kind": "StringLiteral",
       "offset": 186,
       "length": 7,
-      "value": "\"2.6.2\""
+      "value": "\"2.7.0\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
@@ -32377,104 +32476,111 @@
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
       "offset": 5217,
+      "length": 23,
+      "value": "\"\/oidc\/v20\/token\/valid\""
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
+      "kind": "StringLiteral",
+      "offset": 5287,
       "length": 31,
       "value": "\"\/oidc\/v20\/userinfo\/clients\/%@\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5295,
+      "offset": 5365,
       "length": 27,
       "value": "\"\/oidc\/v20\/polling\/confirm\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5369,
+      "offset": 5439,
       "length": 26,
       "value": "\"\/oidc\/v20\/polling\/cancel\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5476,
+      "offset": 5546,
       "length": 8,
       "value": "\"TID_AT\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5527,
+      "offset": 5597,
       "length": 8,
       "value": "\"TID_EI\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5581,
+      "offset": 5651,
       "length": 8,
       "value": "\"TID_RT\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5635,
+      "offset": 5705,
       "length": 8,
       "value": "\"TID_CV\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5692,
+      "offset": 5762,
       "length": 9,
       "value": "\"TID_RDI\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5765,
+      "offset": 5835,
       "length": 21,
       "value": "\"\/oidc\/v20\/authorize\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5817,
+      "offset": 5887,
       "length": 19,
       "value": "\"\/oidc\/v20\/qr\/read\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5867,
+      "offset": 5937,
       "length": 16,
       "value": "\"\/oidc\/v20\/join\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5914,
+      "offset": 5984,
       "length": 18,
       "value": "\"\/oidc\/v20\/scopes\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5963,
+      "offset": 6033,
       "length": 20,
       "value": "\"\/oidc\/v20\/services\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 6014,
+      "offset": 6084,
       "length": 18,
       "value": "\"\/oidc\/v20\/tidBiz\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 6063,
+      "offset": 6133,
       "length": 20,
       "value": "\"\/oidc\/v20\/provider\""
     },
@@ -32488,154 +32594,154 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 1194,
+      "offset": 1196,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "FloatLiteral",
-      "offset": 1253,
+      "offset": 1255,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 1785,
+      "offset": 1787,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Array",
-      "offset": 5172,
+      "offset": 5174,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 5935,
+      "offset": 5937,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 6525,
+      "offset": 6529,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 13230,
+      "offset": 13272,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 13792,
+      "offset": 13836,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 19194,
+      "offset": 21235,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 19477,
+      "offset": 21518,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 20142,
+      "offset": 22183,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 20448,
+      "offset": 22489,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 21133,
+      "offset": 23174,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 21437,
+      "offset": 23478,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 22070,
+      "offset": 24111,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 22359,
+      "offset": 24400,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 23066,
+      "offset": 25107,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 29734,
+      "offset": 31781,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 30296,
+      "offset": 32343,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 30852,
+      "offset": 32899,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 30864,
+      "offset": 32911,
       "length": 3,
       "value": "2"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 30877,
+      "offset": 32924,
       "length": 4,
       "value": "3"
     },
@@ -36135,42 +36241,35 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/AuthRequest.swift",
       "kind": "Dictionary",
-      "offset": 5413,
+      "offset": 5473,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/AuthRequest.swift",
       "kind": "Dictionary",
-      "offset": 6257,
+      "offset": 6317,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/AuthRequest.swift",
       "kind": "Dictionary",
-      "offset": 6681,
+      "offset": 6741,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/AuthRequest.swift",
       "kind": "BooleanLiteral",
-      "offset": 8818,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/AuthRequest.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14020,
+      "offset": 8878,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/AuthRequest.swift",
       "kind": "Dictionary",
-      "offset": 17564,
+      "offset": 11506,
       "length": 3,
       "value": "[]"
     },
@@ -36380,7 +36479,7 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/WebViewController.swift",
       "kind": "Dictionary",
-      "offset": 22906,
+      "offset": 22926,
       "length": 3,
       "value": "[]"
     },
@@ -36394,7 +36493,7 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/ProviderViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7005,
+      "offset": 7007,
       "length": 4,
       "value": "true"
     },
@@ -36427,9 +36526,9 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/TokenInfo.swift",
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Auth\/TidTokenInfo.swift",
       "kind": "BooleanLiteral",
-      "offset": 3549,
+      "offset": 4074,
       "length": 5,
       "value": "false"
     },

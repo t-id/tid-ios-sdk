@@ -67,12 +67,13 @@ public struct LogInfo : Swift.Codable {
   public func initSDK(clientId: Swift.String, appGroup: Swift.String? = nil, options: [Swift.String : Any]? = nil)
   public func handleOpen(url: Foundation.URL) -> Swift.Bool
   public func processProviderLink(url: Foundation.URL, userAccessToken: Swift.String?)
-  public func login(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
-  public func join(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
+  public func login(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>) -> Swift.Void)
+  public func join(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>) -> Swift.Void)
   public var hasToken: Swift.Bool {
     get
   }
-  public func accessTokenInfo(completion: @escaping (Swift.Result<TidLib.TokenInfo, TidLib.TidError>) -> Swift.Void)
+  public func accessTokenInfo(completion: @escaping (Swift.Result<TidLib.TidTokenInfo, TidLib.TidError>) -> Swift.Void)
+  public func userInfo(completion: @escaping (Swift.Result<TidLib.TidUserInfo, TidLib.TidError>) -> Swift.Void)
   public func logout(completion: @escaping (TidLib.TidError?) -> Swift.Void)
   public func requestGet(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
   public func requestGet<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
@@ -906,6 +907,7 @@ extension TidLib.Status : Foundation.CustomNSError {
     get
   }
 }
+public typealias TidUserInfo = [Swift.String : Any]
 extension Foundation.Date {
   public func forLog() -> Swift.String
 }
@@ -1020,13 +1022,27 @@ extension TidLib.Reachability {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class TokenInfo : Swift.Decodable {
-  final public let access_token: Swift.String
-  final public let token_type: Swift.String?
-  final public let expires_in: Swift.Int
-  final public let refresh_token: Swift.String
-  final public let id_token: Swift.String?
-  public var user_info: [Swift.String : Any] {
+@_inheritsConvenienceInitializers public class TidAuthInfo : TidLib.TidTokenInfo {
+  public var idToken: Swift.String {
+    get
+  }
+  required public init(from decoder: any Swift.Decoder) throws
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class TidTokenInfo : Swift.Decodable {
+  public var accessToken: Swift.String {
+    get
+  }
+  public var expiresIn: Swift.Int {
+    get
+  }
+  public var refreshToken: Swift.String {
+    get
+  }
+  public var sub: Swift.String {
+    get
+  }
+  public var subsId: Swift.String? {
     get
   }
   @objc deinit

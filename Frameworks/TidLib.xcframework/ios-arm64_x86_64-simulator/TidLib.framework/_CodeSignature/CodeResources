@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ar5ZBnhhoAELnG8vqS9FLLWDh/c=
+		oQ8UPELFAIu849SY1ZyaQ1PHcEY=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sYt+nt1nU36yTze9Xu7i1kD0LvM=
+		yXz5JxbW3KutMzsa9/MXq7qKM0Y=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PO0mBt9toTFDb9zJHpEwBVH74wI=
+		CT6+9XLI556EzK4Qzw8xKfU1Eoc=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		UQBL8Mns0obDxL2uo/RGgD2Q1zo=
+		JXB0F5OfGjfJwFxVPXzlnd7dSR8=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PO0mBt9toTFDb9zJHpEwBVH74wI=
+		CT6+9XLI556EzK4Qzw8xKfU1Eoc=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fhFqyKJPaB/TZniity8HZZI5jQI=
+		QyQXkLbGTG/sXdoGqnp7E5QjpLg=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sYt+nt1nU36yTze9Xu7i1kD0LvM=
+		yXz5JxbW3KutMzsa9/MXq7qKM0Y=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yn64nf1ZH4zxz/9G2ESXWL69ZD8=
+		Cce2IlaMvmcaINYM5kIz5v9e4vE=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Ld5IeeFKvMCdoN5BKejGNWcwd10=
+		Jo1evpKcT4P/iI09Ux0o2f7x/x8=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yn64nf1ZH4zxz/9G2ESXWL69ZD8=
+		Cce2IlaMvmcaINYM5kIz5v9e4vE=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		odhyo5ODi3TakrGzWvKfpL+dJZY=
+		jLct+6LzhvembetRSLSFwbB6ATY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,70 +116,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mvDbuPcTLv68lb7ZnAxHxuWmBJucxauH9PEhKZQxnY=
+			flqOY02CaB6Wn9b720fgqRS3FKzVorLrAjJ/cuiCP7E=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mJ8M8D0r5rW0CnLeloQ6yK3VUL5ADKw+36gNdMYq6Do=
+			Dw0UWZ85sjPCPX0PDUg2ZG2pIyPJifS7X2hzMmiBYuA=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6XUsGep4JnSP8RHDoWmxUnpWGuMBRs6j7yFmS3muBDE=
+			7LQtmmmDGwpNQX7caL/tkDqucNgmHbHZJsYQLpHW8OY=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mJ8M8D0r5rW0CnLeloQ6yK3VUL5ADKw+36gNdMYq6Do=
+			Dw0UWZ85sjPCPX0PDUg2ZG2pIyPJifS7X2hzMmiBYuA=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YJyKBEJUoFT1DQVG+ZY3cnwxbUhI4HbRRU3Zl9IbwcM=
+			XN1nQq6NSfURpLQcg+2hWIeR9vqTUY89CNvdX0VTldo=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0mvDbuPcTLv68lb7ZnAxHxuWmBJucxauH9PEhKZQxnY=
+			flqOY02CaB6Wn9b720fgqRS3FKzVorLrAjJ/cuiCP7E=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J/neD4/0lzBLRzXOzHg0rUut+E+r/slPKP+nBB7m5IY=
+			Qob881xwrIM31g7WXK0fWJYcM6Cpy/YlaQzw/4J8f/8=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zZQBVr1gvaMC2aN6ZnGPyDsgdD+EQJVgv1VubJ/M6z0=
+			PmIoA9y4CGpAVTs5xniudf4SbDg2ES0HjcBbskVi7dI=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J/neD4/0lzBLRzXOzHg0rUut+E+r/slPKP+nBB7m5IY=
+			Qob881xwrIM31g7WXK0fWJYcM6Cpy/YlaQzw/4J8f/8=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5YaB9cyS/UPdYcJQ7pv7CHRNit7ElXraZ+muaAqpD2U=
+			N9tgRhc3Luy1d/pg+YjnTRdXSeB/DhI8ehRCiBOcf38=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
