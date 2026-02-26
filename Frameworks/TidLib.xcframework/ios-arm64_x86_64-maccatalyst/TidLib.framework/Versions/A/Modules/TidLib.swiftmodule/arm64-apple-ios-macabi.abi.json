@@ -40613,7 +40613,7 @@
       "kind": "StringLiteral",
       "offset": 186,
       "length": 7,
-      "value": "\"2.7.9\""
+      "value": "\"2.8.0\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
