@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jFtx5+Gj1GvgXV8VLcTk0/ovTn4=
+		K9zkYI6jT73oWZ34GZtoEsk8t74=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		IDXNz/LEYszPTOrCzA1n3UFgvxI=
+		GO4MWS17EDvRVbwpwzSmYVXwo24=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QsMUcvxjZCEazI3T1Y4ZhIqN00E=
+		qd36s/Y3Ks/hGpAF+x/Nyg3Ljz8=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		IDXNz/LEYszPTOrCzA1n3UFgvxI=
+		GO4MWS17EDvRVbwpwzSmYVXwo24=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PZmhSmEhhSwPNhfoXn4VfYVGbzU=
+		z5zzpLt5iU64weVzkX6Gl+W57Ak=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YqipeDimpFVyEtoDTLP/23hkVi+PIG+VESPAA61U+/I=
+			atFEELF2TmRdvu7xRjUHguJwJaryC81FgtBDl+zvyjo=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,14 +144,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gVM5xyE+YlURywjVkFbi+ua3aH8N0aD+ROkLwB1knsk=
+			62qa3+VazjzX+u079hgh3xIFobME/YdBQZtNftAZgdI=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YqipeDimpFVyEtoDTLP/23hkVi+PIG+VESPAA61U+/I=
+			atFEELF2TmRdvu7xRjUHguJwJaryC81FgtBDl+zvyjo=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			g+KHyjdybluDB7i4NJHNA91IQTK/PfEZrQn1DQ9RPG4=
+			Zzvjq7eb9jCVn5xniTuOyEwtIUIkGeZU9/K2ECVnw6Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
