@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		K9zkYI6jT73oWZ34GZtoEsk8t74=
+		Mownt7a9okpQusRUAitgnQkqj+0=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		GO4MWS17EDvRVbwpwzSmYVXwo24=
+		QBRrf1yjXSMU2gVpU+6AsJHGzQ0=
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qd36s/Y3Ks/hGpAF+x/Nyg3Ljz8=
+		EG3Vd1xhju1KtVLiJUzUBvnC4FU=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		GO4MWS17EDvRVbwpwzSmYVXwo24=
+		QBRrf1yjXSMU2gVpU+6AsJHGzQ0=
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		z5zzpLt5iU64weVzkX6Gl+W57Ak=
+		03bwafjC4+svsTYBRB/q7ALnaTw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			atFEELF2TmRdvu7xRjUHguJwJaryC81FgtBDl+zvyjo=
+			ff7++q3eQA03hdttz9S3bpUy2v2F7JR6HPfTRNA1uys=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -144,14 +144,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			62qa3+VazjzX+u079hgh3xIFobME/YdBQZtNftAZgdI=
+			2IVRzb3w+TXCMX2+3UzF5/WrTtgC90sTm+LR3+xEV+I=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			atFEELF2TmRdvu7xRjUHguJwJaryC81FgtBDl+zvyjo=
+			ff7++q3eQA03hdttz9S3bpUy2v2F7JR6HPfTRNA1uys=
 			</data>
 		</dict>
 		<key>Modules/TidLib.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zzvjq7eb9jCVn5xniTuOyEwtIUIkGeZU9/K2ECVnw6Y=
+			7SVMxPjEytu1w9RIGKIyAlyTQaify8uM+Eo2MXoBQ7w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

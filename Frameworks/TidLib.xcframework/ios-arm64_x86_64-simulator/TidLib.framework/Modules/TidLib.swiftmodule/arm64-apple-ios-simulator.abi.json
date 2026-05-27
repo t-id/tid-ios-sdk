@@ -36092,6 +36092,26 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TidLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TidLib",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "HttpMethod",
         "printedName": "HttpMethod",
@@ -40971,21 +40991,21 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 24506,
+      "offset": 23170,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 24518,
+      "offset": 23182,
       "length": 3,
       "value": "2"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 24531,
+      "offset": 23195,
       "length": 4,
       "value": "3"
     },
@@ -41783,21 +41803,21 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Data\/Repositories\/TokenRepositoryImpl.swift",
       "kind": "BooleanLiteral",
-      "offset": 459,
+      "offset": 400,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Data\/Repositories\/TokenRepositoryImpl.swift",
       "kind": "Array",
-      "offset": 545,
+      "offset": 486,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Data\/Repositories\/TokenRepositoryImpl.swift",
       "kind": "StringLiteral",
-      "offset": 597,
+      "offset": 538,
       "length": 31,
       "value": "\"com.tid.sdk.auth.request.sync\""
     },
@@ -41818,21 +41838,28 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/DependencyContainer.swift",
       "kind": "StringLiteral",
-      "offset": 1272,
+      "offset": 1216,
       "length": 52,
       "value": "\"clientId must be set before accessing repositories\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/DependencyContainer.swift",
       "kind": "StringLiteral",
-      "offset": 1745,
+      "offset": 1689,
       "length": 52,
       "value": "\"clientId must be set before accessing repositories\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/DependencyContainer.swift",
       "kind": "StringLiteral",
-      "offset": 2120,
+      "offset": 2064,
+      "length": 52,
+      "value": "\"clientId must be set before accessing repositories\""
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/DependencyContainer.swift",
+      "kind": "StringLiteral",
+      "offset": 2434,
       "length": 52,
       "value": "\"clientId must be set before accessing repositories\""
     },
