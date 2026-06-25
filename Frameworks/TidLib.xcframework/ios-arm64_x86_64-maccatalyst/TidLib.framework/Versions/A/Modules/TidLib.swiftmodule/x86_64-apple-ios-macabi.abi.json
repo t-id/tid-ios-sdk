@@ -28095,9 +28095,119 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6TidLib10LogSdkInfoV11environmentSSSgvp",
+            "mangledName": "$s6TidLib10LogSdkInfoV11environmentSSSgvp",
+            "moduleName": "TidLib",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6TidLib10LogSdkInfoV11environmentSSSgvg",
+                "mangledName": "$s6TidLib10LogSdkInfoV11environmentSSSgvg",
+                "moduleName": "TidLib",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6TidLib10LogSdkInfoV11environmentSSSgvs",
+                "mangledName": "$s6TidLib10LogSdkInfoV11environmentSSSgvs",
+                "moduleName": "TidLib",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6TidLib10LogSdkInfoV11environmentSSSgvM",
+                "mangledName": "$s6TidLib10LogSdkInfoV11environmentSSSgvM",
+                "moduleName": "TidLib",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(clientId:clientName:isChnlLogin:isRealName:sdkFirstInitTime:sdkInitTime:)",
+            "printedName": "init(clientId:clientName:isChnlLogin:isRealName:sdkFirstInitTime:sdkInitTime:environment:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -28158,11 +28268,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6TidLib10LogSdkInfoV8clientId0F4Name11isChnlLogin0i4RealH016sdkFirstInitTime0moP0ACSS_SSS2bSSSgAJtcfc",
-            "mangledName": "$s6TidLib10LogSdkInfoV8clientId0F4Name11isChnlLogin0i4RealH016sdkFirstInitTime0moP0ACSS_SSS2bSSSgAJtcfc",
+            "usr": "s:6TidLib10LogSdkInfoV8clientId0F4Name11isChnlLogin0i4RealH016sdkFirstInitTime0moP011environmentACSS_SSS2bSSSgA2Ktcfc",
+            "mangledName": "$s6TidLib10LogSdkInfoV8clientId0F4Name11isChnlLogin0i4RealH016sdkFirstInitTime0moP011environmentACSS_SSS2bSSSgA2Ktcfc",
             "moduleName": "TidLib",
             "declAttributes": [
               "AccessControl"
@@ -37023,6 +37148,13 @@
       "offset": 207,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidAppEvents\/Infrastructure\/Networking\/LogApiService.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 22,
+      "value": "\"statlog.skt-id.co.kr\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidAppEvents\/External\/Data+Gzip.swift",

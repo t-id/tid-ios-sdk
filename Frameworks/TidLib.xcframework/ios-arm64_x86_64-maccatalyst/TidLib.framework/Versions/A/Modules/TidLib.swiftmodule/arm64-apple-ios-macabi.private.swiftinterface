@@ -968,7 +968,8 @@ public struct LogSdkInfo : Swift.Codable, Swift.Equatable {
   public let isRealName: Swift.Bool
   public var sdkFirstInitTime: Swift.String?
   public var sdkInitTime: Swift.String?
-  public init(clientId: Swift.String, clientName: Swift.String, isChnlLogin: Swift.Bool, isRealName: Swift.Bool, sdkFirstInitTime: Swift.String? = nil, sdkInitTime: Swift.String? = nil)
+  public var environment: Swift.String?
+  public init(clientId: Swift.String, clientName: Swift.String, isChnlLogin: Swift.Bool, isRealName: Swift.Bool, sdkFirstInitTime: Swift.String? = nil, sdkInitTime: Swift.String? = nil, environment: Swift.String? = nil)
   public static func == (a: TidLib.LogSdkInfo, b: TidLib.LogSdkInfo) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
