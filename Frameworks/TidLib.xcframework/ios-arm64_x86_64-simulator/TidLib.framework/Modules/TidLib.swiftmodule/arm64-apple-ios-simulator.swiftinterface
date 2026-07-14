@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TidLib
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name TidLib
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 import AuthenticationServices
 import CommonCrypto
 import DeveloperToolsSupport
@@ -16,7 +16,7 @@ import SwiftUI
 import SystemConfiguration
 @_exported import TidLib
 import UIKit
-import WebKit
+@preconcurrency import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
@@ -91,26 +91,18 @@ public struct LogVersionInfo : Swift.Codable, Swift.Equatable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public protocol LogEventUseCase {
-  #if compiler(>=5.3) && $NonescapableTypes
   func execute(deviceId: Swift.String?, errorCode: Swift.String, errorSubCode: Swift.String, errorContent: Swift.String?, statusCode: Swift.String?, loginId: Swift.String?, requestURI: Swift.String?, requestData: Swift.String?, accessTokenInfo: Swift.String?, fidoDeviceId: Swift.String?)
-  #endif
 }
 public protocol DeviceInfoRepository {
-  #if compiler(>=5.3) && $NonescapableTypes
   func currentDeviceInfo(customDeviceId: Swift.String?) -> TidLib.LogDeviceInfo
-  #endif
   var appVersion: Swift.String { get }
   var osVersion: Swift.String { get }
 }
 public protocol SDKConfigRepository {
   var isInitialized: Swift.Bool { get }
   var sdkVer: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   var sdkInfo: TidLib.LogSdkInfo? { get }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   var firstInitTime: Swift.String? { get }
-  #endif
   func initialize(sdkVer: Swift.String, sdkInfo: TidLib.LogSdkInfo)
 }
 public enum LogDevice {
@@ -168,15 +160,9 @@ public class Reachability {
   public var connection: TidLib.Reachability.Connection {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init?(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil)
-  #endif
   @objc deinit
 }
 @available(iOS 8.0, *)
@@ -308,141 +294,87 @@ public struct AuthenticationPolicy : Swift.OptionSet {
   public typealias RawValue = Swift.UInt
 }
 public struct Attributes {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var `class`: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var data: Foundation.Data? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var ref: Foundation.Data? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var persistentRef: Foundation.Data? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var accessible: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var accessControl: Security.SecAccessControl? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var accessGroup: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var synchronizable: Swift.Bool? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var creationDate: Foundation.Date? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var modificationDate: Foundation.Date? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var attributeDescription: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var comment: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var creator: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var type: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var label: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var isInvisible: Swift.Bool? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var isNegative: Swift.Bool? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var account: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var service: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var generic: Foundation.Data? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var securityDomain: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var server: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var `protocol`: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var authenticationType: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var port: Swift.Int? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public var path: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(key: Swift.String) -> Any? {
     get
   }
-  #endif
 }
 @_hasMissingDesignatedInitializers final public class Keychain {
   final public var itemClass: TidLib.ItemClass {
@@ -451,11 +383,9 @@ public struct Attributes {
   final public var service: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var accessGroup: Swift.String? {
     get
   }
-  #endif
   final public var server: Foundation.URL {
     get
   }
@@ -468,54 +398,38 @@ public struct Attributes {
   final public var accessibility: TidLib.Accessibility {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, macOS 10.10, *)
   @available(watchOS, unavailable)
   final public var authenticationPolicy: TidLib.AuthenticationPolicy? {
     get
   }
-  #endif
   final public var synchronizable: Swift.Bool {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var label: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public var comment: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, macOS 10.10, *)
   @available(watchOS, unavailable)
   final public var authenticationPrompt: Swift.String? {
     get
   }
-  #endif
   @available(iOS 9.0, macOS 10.11, *)
   final public var authenticationUI: TidLib.AuthenticationUI {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 9.0, macOS 10.11, *)
   final public var authenticationContext: LocalAuthentication.LAContext? {
     get
   }
-  #endif
   convenience public init()
   convenience public init(accessGroup: Swift.String)
-  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(service: Swift.String, accessGroup: Swift.String? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(server: Swift.String, protocolType: TidLib.ProtocolType, accessGroup: Swift.String? = nil, authenticationType: TidLib.AuthenticationType = .default)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(server: Foundation.URL, protocolType: TidLib.ProtocolType, accessGroup: Swift.String? = nil, authenticationType: TidLib.AuthenticationType = .default)
-  #endif
   final public func accessibility(_ accessibility: TidLib.Accessibility) -> TidLib.Keychain
   @available(iOS 8.0, macOS 10.10, *)
   @available(watchOS, unavailable)
@@ -531,43 +445,27 @@ public struct Attributes {
   final public func authenticationUI(_ authenticationUI: TidLib.AuthenticationUI) -> TidLib.Keychain
   @available(iOS 9.0, macOS 10.11, *)
   final public func authenticationContext(_ authenticationContext: LocalAuthentication.LAContext) -> TidLib.Keychain
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func get(_ key: Swift.String, ignoringAttributeSynchronizable: Swift.Bool = true) throws -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func getString(_ key: Swift.String, ignoringAttributeSynchronizable: Swift.Bool = true) throws -> Swift.String?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func getData(_ key: Swift.String, ignoringAttributeSynchronizable: Swift.Bool = true) throws -> Foundation.Data?
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public func get<T>(_ key: Swift.String, ignoringAttributeSynchronizable: Swift.Bool = true, handler: (TidLib.Attributes?) -> T) throws -> T
-  #endif
   final public func set(_ value: Swift.String, key: Swift.String, ignoringAttributeSynchronizable: Swift.Bool = true) throws
   final public func set(_ value: Foundation.Data, key: Swift.String, ignoringAttributeSynchronizable: Swift.Bool = true) throws
-  #if compiler(>=5.3) && $NonescapableTypes
   final public subscript(key: Swift.String) -> Swift.String? {
     get
     set
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public subscript(string key: Swift.String) -> Swift.String? {
     get
     set
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public subscript(data key: Swift.String) -> Foundation.Data? {
     get
     set
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   final public subscript(attributes key: Swift.String) -> TidLib.Attributes? {
     get
   }
-  #endif
   final public func remove(_ key: Swift.String, ignoringAttributeSynchronizable: Swift.Bool = true) throws
   final public func removeAll() throws
   final public func contains(_ key: Swift.String, withoutAuthenticationUI: Swift.Bool = false) throws -> Swift.Bool
@@ -575,34 +473,20 @@ public struct Attributes {
   final public func allKeys() -> [Swift.String]
   final public class func allItems(_ itemClass: TidLib.ItemClass) -> [[Swift.String : Any]]
   final public func allItems() -> [[Swift.String : Any]]
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, *)
   final public func getSharedPassword(_ completion: @escaping (_ account: Swift.String?, _ password: Swift.String?, _ error: (any Swift.Error)?) -> () = { account, password, error -> () in })
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, *)
   final public func getSharedPassword(_ account: Swift.String, completion: @escaping (_ password: Swift.String?, _ error: (any Swift.Error)?) -> () = { password, error -> () in })
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, *)
   final public func setSharedPassword(_ password: Swift.String, account: Swift.String, completion: @escaping (_ error: (any Swift.Error)?) -> () = { e -> () in })
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, *)
   final public func removeSharedPassword(_ account: Swift.String, completion: @escaping (_ error: (any Swift.Error)?) -> () = { e -> () in })
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, *)
   final public class func requestSharedWebCredential(_ completion: @escaping (_ credentials: [[Swift.String : Swift.String]], _ error: (any Swift.Error)?) -> () = { credentials, error -> () in })
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, *)
   final public class func requestSharedWebCredential(domain: Swift.String, completion: @escaping (_ credentials: [[Swift.String : Swift.String]], _ error: (any Swift.Error)?) -> () = { credentials, error -> () in })
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 8.0, *)
   final public class func requestSharedWebCredential(domain: Swift.String, account: Swift.String, completion: @escaping (_ credentials: [[Swift.String : Swift.String]], _ error: (any Swift.Error)?) -> () = { credentials, error -> () in })
-  #endif
   @available(iOS 8.0, *)
   final public class func generatePassword() -> Swift.String
   @objc deinit
@@ -624,9 +508,7 @@ extension TidLib.Attributes : Swift.CustomStringConvertible, Swift.CustomDebugSt
   }
 }
 extension TidLib.ItemClass : Swift.RawRepresentable, Swift.CustomStringConvertible {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public var rawValue: Swift.String {
     get
   }
@@ -636,9 +518,7 @@ extension TidLib.ItemClass : Swift.RawRepresentable, Swift.CustomStringConvertib
   public typealias RawValue = Swift.String
 }
 extension TidLib.ProtocolType : Swift.RawRepresentable, Swift.CustomStringConvertible {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public var rawValue: Swift.String {
     get
   }
@@ -648,9 +528,7 @@ extension TidLib.ProtocolType : Swift.RawRepresentable, Swift.CustomStringConver
   public typealias RawValue = Swift.String
 }
 extension TidLib.AuthenticationType : Swift.RawRepresentable, Swift.CustomStringConvertible {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public var rawValue: Swift.String {
     get
   }
@@ -660,9 +538,7 @@ extension TidLib.AuthenticationType : Swift.RawRepresentable, Swift.CustomString
   public typealias RawValue = Swift.String
 }
 extension TidLib.Accessibility : Swift.RawRepresentable, Swift.CustomStringConvertible {
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public var rawValue: Swift.String {
     get
   }
@@ -1081,9 +957,7 @@ extension TidLib.Status : Swift.RawRepresentable, Swift.CustomStringConvertible 
   public var description: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Darwin.OSStatus)
-  #endif
   public typealias RawValue = Darwin.OSStatus
   public var rawValue: Darwin.OSStatus {
     get
@@ -1099,9 +973,7 @@ extension TidLib.Status : Foundation.CustomNSError {
   }
 }
 public protocol InitializeSDKUseCase {
-  #if compiler(>=5.3) && $NonescapableTypes
   func execute(sdkVer: Swift.String, clientId: Swift.String, clientName: Swift.String?, isChnlLogin: Swift.Bool, isRealName: Swift.Bool)
-  #endif
 }
 public struct LogSdkInfo : Swift.Codable, Swift.Equatable {
   public let clientId: Swift.String
@@ -1111,9 +983,8 @@ public struct LogSdkInfo : Swift.Codable, Swift.Equatable {
   public let isRealName: Swift.Bool
   public var sdkFirstInitTime: Swift.String?
   public var sdkInitTime: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
-  public init(clientId: Swift.String, clientName: Swift.String, isChnlLogin: Swift.Bool, isRealName: Swift.Bool, sdkFirstInitTime: Swift.String? = nil, sdkInitTime: Swift.String? = nil)
-  #endif
+  public var environment: Swift.String?
+  public init(clientId: Swift.String, clientName: Swift.String, isChnlLogin: Swift.Bool, isRealName: Swift.Bool, sdkFirstInitTime: Swift.String? = nil, sdkInitTime: Swift.String? = nil, environment: Swift.String? = nil)
   public static func == (a: TidLib.LogSdkInfo, b: TidLib.LogSdkInfo) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -1124,19 +995,13 @@ public struct LogSdkInfo : Swift.Codable, Swift.Equatable {
     @objc get
     @objc set
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func initSDK(sdkVer: Swift.String, clientId: Swift.String, clientName: Swift.String? = nil, isChnlLogin: Swift.Bool = false, isRealName: Swift.Bool = false)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func log(deviceId: Swift.String? = nil, errorCode: Swift.String, errorSubCode: Swift.String, errorContent: Swift.String? = nil, statusCode: Swift.String? = nil, loginId: Swift.String? = nil, requestURI: Swift.String? = nil, requestData: Swift.String? = nil, accessTokenInfo: Swift.String? = nil, fidoDeviceId: Swift.String? = nil)
-  #endif
   @objc deinit
 }
 @objc public enum TidAppEventsServerType : Swift.Int {
   case dev, qa, stg, prod
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -1149,9 +1014,7 @@ public struct LogDeviceInfo : Swift.Codable, Swift.Equatable {
   public let currentTimeZone: Swift.String
   public let networkType: Swift.String
   public var platform: Swift.String?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(deviceModel: Swift.String, deviceId: Swift.String?, currentLocale: Swift.String, currentTimeZone: Swift.String, networkType: Swift.String, platform: Swift.String? = nil)
-  #endif
   public static func == (a: TidLib.LogDeviceInfo, b: TidLib.LogDeviceInfo) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -1184,57 +1047,25 @@ public struct LogOptionalInfo : Swift.Codable, Swift.Equatable {
   public var version: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public func initSDK(clientId: Swift.String, appGroup: Swift.String? = nil, options: [Swift.String : Any]? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func login(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func join(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>) -> Swift.Void)
-  #endif
   public var hasToken: Swift.Bool {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public func userInfo(completion: @escaping (Swift.Result<TidLib.TidUserInfo, TidLib.TidError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func accessTokenInfo(completion: @escaping (Swift.Result<TidLib.TidTokenInfo, TidLib.TidError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func logout(completion: @escaping (TidLib.TidError?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func requestGet(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func requestGet<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func requestPost(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func requestPost<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func requestPut(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func requestPut<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], jsonBody: Foundation.Data, completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func requestDelete(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func requestDelete<T>(path: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<T, TidLib.TidError>) -> Swift.Void) where T : Swift.Decodable
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func serviceWeb(serviceType: Swift.String, queries: [Swift.String : Swift.String] = [:], completion: ((Swift.Result<[Swift.String : Swift.String], TidLib.TidError>) -> Swift.Void)? = nil)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public func tidBiz(type: Swift.String, completion: @escaping (Swift.Result<[Swift.String : Any], TidLib.TidError>) -> Swift.Void)
-  #endif
   @objc deinit
 }
 public enum TidServerHost : Swift.Int {
@@ -1242,9 +1073,7 @@ public enum TidServerHost : Swift.Int {
   case qa
   case stg
   case prod
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -1257,9 +1086,7 @@ public struct TokenEntity {
   public let refreshToken: Swift.String
   public let idToken: Swift.String?
   public let userInfoData: Foundation.Data?
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(accessToken: Swift.String, tokenType: Swift.String?, expiresIn: Swift.Int, refreshToken: Swift.String, idToken: Swift.String?, userInfoData: Foundation.Data?)
-  #endif
 }
 public struct AuthEntity {
   public let token: TidLib.TokenEntity
@@ -1286,11 +1113,9 @@ public struct AuthEntity {
   public static let ERROR_APPTOAPP_CANCEL: TidLib.TidError
 }
 extension TidLib.TidError : Foundation.LocalizedError {
-  #if compiler(>=5.3) && $NonescapableTypes
   public var errorDescription: Swift.String? {
     get
   }
-  #endif
 }
 extension TidLib.TidError {
   public var code: Swift.Int {
@@ -1309,9 +1134,7 @@ public class ClientInfo : Swift.Decodable {
   public var idToken: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   override public init(accessToken: Swift.String, expiresIn: Swift.Int, refreshToken: Swift.String, idToken: Swift.String?)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
@@ -1336,14 +1159,10 @@ public class TidTokenInfo : Swift.Decodable {
   public var sub: Swift.String {
     get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   public var subsId: Swift.String? {
     get
   }
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   public init(accessToken: Swift.String, expiresIn: Swift.Int, refreshToken: Swift.String, idToken: Swift.String?)
-  #endif
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
 }
@@ -1352,18 +1171,14 @@ public enum HttpMethod : Swift.String {
   case post
   case put
   case delete
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 public protocol DatabaseCreationDateProvider {
-  #if compiler(>=5.3) && $NonescapableTypes
   var databaseCreationDate: Foundation.Date? { get }
-  #endif
 }
 @available(iOS 8.0, *)
 @available(*, unavailable, renamed: "Connection")

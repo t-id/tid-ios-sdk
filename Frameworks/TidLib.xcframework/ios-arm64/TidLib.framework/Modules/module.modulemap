@@ -7,5 +7,4 @@ framework module TidLib {
 
 module TidLib.Swift {
   header "TidLib-Swift.h"
-  requires objc
 }
