@@ -1033,6 +1033,8 @@ public struct LogOptionalInfo : Swift.Codable, Swift.Equatable {
     get
   }
   public func initSDK(clientId: Swift.String, appGroup: Swift.String? = nil, options: [Swift.String : Any]? = nil)
+  public func handleOpen(url: Foundation.URL) -> Swift.Bool
+  public func processProviderLink(url: Foundation.URL, userAccessToken: Swift.String?)
   public func login(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>) -> Swift.Void)
   public func join(params: [Swift.String : Swift.String] = [:], completion: @escaping (Swift.Result<TidLib.TidAuthInfo, TidLib.TidError>) -> Swift.Void)
   public var hasToken: Swift.Bool {
