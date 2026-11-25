@@ -37831,6 +37831,27 @@
       "value": "10"
     },
     {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Infrastructure\/Auth\/AuthSessionProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8660,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Infrastructure\/Auth\/AuthSessionProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Infrastructure\/Auth\/AuthSessionProvider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22320,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidAppEvents\/Data\/Repositories\/SDKConfigRepositoryImpl.swift",
       "kind": "BooleanLiteral",
       "offset": 194,
@@ -41305,28 +41326,35 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "Dictionary",
-      "offset": 20639,
+      "offset": 20677,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
+      "kind": "Dictionary",
+      "offset": 21981,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 23855,
+      "offset": 25209,
       "length": 2,
       "value": "1"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 23867,
+      "offset": 25221,
       "length": 3,
       "value": "2"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/TidAuth.swift",
       "kind": "IntegerLiteral",
-      "offset": 23880,
+      "offset": 25234,
       "length": 4,
       "value": "3"
     },
@@ -41340,105 +41368,105 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 803,
+      "offset": 930,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1144,
+      "offset": 1271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1513,
+      "offset": 1640,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1731,
       "length": 9,
       "value": "\"icon_nc\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1722,
+      "offset": 1849,
       "length": 45,
       "value": "\"인터넷 연결이\n원활하지 않아요\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1843,
+      "offset": 1970,
       "length": 61,
       "value": "\"네트워크 연결 확인 후, 다시 시도해 주세요.\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1943,
+      "offset": 2070,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2048,
+      "offset": 2175,
       "length": 12,
       "value": "\"icon_error\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2296,
       "length": 47,
       "value": "\"일시적으로\n오류가 발생했습니다\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2292,
+      "offset": 2419,
       "length": 82,
       "value": "\"잠시 후 다시 시도해 주세요.\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2351,
+      "offset": 2478,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2370,
+      "offset": 2497,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2373,
+      "offset": 2500,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2413,
+      "offset": 2540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Presentation\/Controllers\/WebViewController.swift",
       "kind": "Dictionary",
-      "offset": 22856,
+      "offset": 25388,
       "length": 3,
       "value": "[]"
     },
@@ -41475,7 +41503,7 @@
       "kind": "StringLiteral",
       "offset": 186,
       "length": 7,
-      "value": "\"2.9.1\""
+      "value": "\"2.9.2\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
@@ -41557,133 +41585,133 @@
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5106,
+      "offset": 5904,
       "length": 17,
       "value": "\"\/oidc\/v20\/token\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5170,
+      "offset": 5968,
       "length": 25,
       "value": "\"\/oidc\/v20\/token\/clients\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5242,
+      "offset": 6040,
       "length": 28,
       "value": "\"\/oidc\/v20\/token\/clients\/%@\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5317,
+      "offset": 6115,
       "length": 23,
       "value": "\"\/oidc\/v20\/token\/valid\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5387,
+      "offset": 6185,
       "length": 31,
       "value": "\"\/oidc\/v20\/userinfo\/clients\/%@\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5465,
+      "offset": 6263,
       "length": 27,
       "value": "\"\/oidc\/v20\/polling\/confirm\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5539,
+      "offset": 6337,
       "length": 26,
       "value": "\"\/oidc\/v20\/polling\/cancel\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5646,
+      "offset": 6444,
       "length": 8,
       "value": "\"TID_AT\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5697,
+      "offset": 6495,
       "length": 8,
       "value": "\"TID_EI\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5751,
+      "offset": 6549,
       "length": 8,
       "value": "\"TID_RT\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5805,
+      "offset": 6603,
       "length": 8,
       "value": "\"TID_CV\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5862,
+      "offset": 6660,
       "length": 9,
       "value": "\"TID_RDI\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5913,
+      "offset": 6711,
       "length": 8,
       "value": "\"TID_UI\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 5985,
+      "offset": 6783,
       "length": 21,
       "value": "\"\/oidc\/v20\/authorize\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 6037,
+      "offset": 6835,
       "length": 19,
       "value": "\"\/oidc\/v20\/qr\/read\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 6087,
+      "offset": 6885,
       "length": 16,
       "value": "\"\/oidc\/v20\/join\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 6134,
+      "offset": 6932,
       "length": 20,
       "value": "\"\/oidc\/v20\/services\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 6185,
+      "offset": 6983,
       "length": 18,
       "value": "\"\/oidc\/v20\/tidBiz\""
     },
     {
       "filePath": "\/Users\/p202234\/Documents\/Projects\/tid-app-oidc-sdk-ios\/TidOidc\/TidLib\/Domain\/Common\/Constants\/TidCommon.swift",
       "kind": "StringLiteral",
-      "offset": 6234,
+      "offset": 7032,
       "length": 20,
       "value": "\"\/oidc\/v20\/provider\""
     },
